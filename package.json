@@ -6,19 +6,21 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "tunnel": "expo r --tunnel",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",
     "expo": "~47.0.8",
+    "expo-font": "~11.0.1",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
     "react-native-svg": "13.4.0",
     "react-native-web": "~0.18.9",
-    "styled-components": "^5.3.6",
-    "expo-font": "~11.0.1"
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -29,7 +31,10 @@
     "@typescript-eslint/eslint-plugin": "^5.46.1",
     "@typescript-eslint/parser": "^5.46.1",
     "eslint": "^8.29.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.1",
     "typescript": "^4.6.3"
   },
   "private": true
