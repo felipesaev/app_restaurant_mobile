@@ -1,8 +1,4 @@
 import { useFonts } from 'expo-font';
-import { Text } from './src/components/Text';
-
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
 import { Main } from './src/Main';
 import React from 'react';
 
