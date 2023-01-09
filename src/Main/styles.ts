@@ -8,7 +8,7 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const CategoriesContainer = styled.View`
-  height: 73px;
+  height: 144px;
 `;
 export const MenuContainer = styled.View``;
 export const FooterContainer = styled.View``;
