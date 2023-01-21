@@ -9,6 +9,7 @@ import {
 import { Header } from '../components/Header';
 import { Categories } from '../components/Categories';
 import { Button } from '../components/Button';
+import { Menu } from '../components/Menu/index';
 
 export function Main() {
   return (
@@ -20,7 +21,9 @@ export function Main() {
           <Categories />
         </CategoriesContainer>
 
-        <MenuContainer></MenuContainer>
+        <MenuContainer>
+          <Menu />
+        </MenuContainer>
       </Container>
       <Footer>
         <FooterContainer>
